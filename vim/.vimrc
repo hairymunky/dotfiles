@@ -40,4 +40,4 @@ syntax on
 " -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 call plug#begin('~/.vim/plugged')
 source ~/.vim/plugins/airline.vim
-call plug#end
+call plug#end()

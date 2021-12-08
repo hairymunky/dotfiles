@@ -28,6 +28,16 @@ set clipboard=unnamedplus
 set confirm
 set exrc
 set backup
-set backupdir=~/.vim/backup//
+set backupdir=~/.backup//
 set updatetime=300
 set redrawtime=10000
+syntax on
+
+
+" -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+" Plugins 
+"
+" -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+call plug#begin('~/.vim/plugged')
+source ~/.vim/plugins/airline.vim
+call plug#end

@@ -25,4 +25,10 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
-alias config='/usr/bin/git --git-dir=/home/graham/.cfg/ --work-tree=/home/graham'
+
+if [ -f `which powerline-daemon` ]; then
+    powerline-daemon -q
+    POWERLINE_BASH_CONTINUATION=1
+    POWERLINE_BASH_SELECT=1
+    . /usr/share/powerline/bash/powerline.sh
+fi

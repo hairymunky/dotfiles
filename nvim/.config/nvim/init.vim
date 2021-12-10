@@ -11,8 +11,8 @@ set signcolumn=yes:2
 set relativenumber
 set number
 set termguicolors
-set undodir=~/.vim/undo-dir//
-set undofile
+"set undodir=~/.vim/undo-dir//
+"set undofile
 set title
 set ignorecase
 set smartcase
@@ -28,8 +28,8 @@ set splitright
 set clipboard=unnamedplus
 set confirm
 set exrc
-set backup
-set backupdir=~/.backup//
+"set backup
+"set backupdir=~/.backup//
 set updatetime=300
 set redrawtime=10000
 syntax on
@@ -50,7 +50,7 @@ endif
 call plug#begin(data_dir . '/plugins')
 
 source ~/.config/nvim/plugins/airline.vim
-
+source ~/.config/nvim/plugins/vim-z80.vim
 call plug#end()
 doautocmd User PlugLoaded
 

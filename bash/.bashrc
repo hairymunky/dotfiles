@@ -29,7 +29,7 @@ fi
 unset rc
 
 alias emacs="emacsclient -c -a emacs"
-alias et="
+alias et="emacsclient -t"
 export ALTERNATE_EDITOR=""
 export EDITOR="emacsclient -t"
 export VISUAL="emacsclient -c -a emacs"

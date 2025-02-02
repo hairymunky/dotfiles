@@ -1,0 +1,20 @@
+#+TITLE: Readme.org
+#+AUTHOR: Hairymunky
+
+* Dotfiles
+Here be my personal configurations for various programs on my
+Linux machines.
+
+Clone into .dotfiles in your home directory, and use the `stow`
+program to manage the files from there.
+
+Once cloned, change into the ~/.dotfiles directory and issue the
+following commands to map to the correct locations:
+
+stow git
+stow emacs
+stow bash
+stow kitty
+
+Note that kitty and emacs are configured to use the JetBrains Mono
+Nerd font, so this should be installed first. (Use getnf to install).

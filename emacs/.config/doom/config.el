@@ -10,7 +10,7 @@
       user-mail-address "graham@bytemycode.co.uk")
 
 ;; Projectile
-(setq projectile-project-search-path '("~/Projects/"))
+(setq projectile-project-search-path '("~/Projects/" "~/.dotfiles/"))
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;

@@ -28,7 +28,8 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-alias emacs="emacs -c -a emacs"
+alias emacs="emacsclient -c -a emacs"
+alias et="
 export ALTERNATE_EDITOR=""
 export EDITOR="emacsclient -t"
 export VISUAL="emacsclient -c -a emacs"

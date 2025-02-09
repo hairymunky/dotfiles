@@ -11,10 +11,13 @@ program to manage the files from there.
 Once cloned, change into the ~/.dotfiles directory and issue the
 following commands to map to the correct locations:
 
+#+begin_src bash
+git clone --recurse-submodules https://github.com/hairymunky/dotfiles.git ~/.dotfiles
 stow git
 stow emacs
 stow bash
 stow kitty
+#+end_src
 
 Note that kitty and emacs are configured to use the JetBrains Mono
 Nerd font, so this should be installed first. (Use getnf to install).

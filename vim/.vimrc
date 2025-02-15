@@ -29,6 +29,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set noshiftround
+set splitright
+set splitbelow
 
 set scrolloff=8
 set backspace=indent,eol,start

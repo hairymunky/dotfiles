@@ -32,6 +32,12 @@ set noshiftround
 set splitright
 set splitbelow
 
+" Keep backups out of my workspace
+set backupdir=~/.local/state/vim/backup//
+set directory=~/.local/state/vim/swap//
+set undodir=~/.local/stata/vim/undo//
+
+
 set scrolloff=8
 set backspace=indent,eol,start
 set matchpairs+=<:>
